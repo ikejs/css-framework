@@ -6,10 +6,10 @@
   - [x] Defined a font stack on the body 
   - [x] Styled headings: h1-6
   - [x] Styled inline elements: strong, em, code
-  - [ ] Style `<a>` tag. Include `:hover` styles
+  - [x] Style `<a>` tag. Include `:hover` styles
   - [ ] **Stretch:** style `<mark>`
   - [ ] **Stretch:** add a style for text selection, [read this](https://www.w3schools.com/cssref/sel_selection.asp)
-  - [ ] **Stretch:** Add color classes. Follow the example set by [Bootstrap colors](https://getbootstrap.com/docs/4.5/utilities/colors/#color)
+  - [x] **Stretch:** Add color classes. Follow the example set by [Bootstrap colors](https://getbootstrap.com/docs/4.5/utilities/colors/#color)
 - [Button styles](https://github.com/Make-School-Courses/FEW-2.2-Web-Design-and-Advanced-CSS/blob/master/lessons/lesson-05.md#design-a-button) for warning, info, action, etc.
   - [ ] Basic button styles
   - [ ] Alternate button styles: warning, secondary, success, Danger, info, light, and dark. 
@@ -22,7 +22,7 @@
   - [ ] uses Custom properties
   - [ ] Document your custom properties
 - [Navbar style](https://github.com/Make-School-Courses/FEW-2.2-Web-Design-and-Advanced-CSS/blob/master/lessons/lesson-07.md#nav-bars) 
-  - [ ] Defined navbar styles
+  - [x] Defined navbar styles
   - [ ] Document your navbar
   - [ ] Stretch: Add a sticky navbar style ([css position sticky](https://www.w3schools.com/howto/howto_js_sticky_header.asp))
   - [ ] Stretch: Footer styles
@@ -32,7 +32,7 @@
 - Uses SASS
   - [ ] Stretch: use @import to bring all files together into a single css file. 
   - [ ] Stretch: Use @for to automate one or more processes
-  - [ ] Stretch: use mixins to reduce code duplication
+  - [x] Stretch: use mixins to reduce code duplication
 - Web components 
   - [ ] You have at least one web component
   - [ ] Document your web component

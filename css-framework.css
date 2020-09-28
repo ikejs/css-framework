@@ -1,5 +1,6 @@
 :root {
   --white: white;
+  --grey: #7f7f7f;
   --light: #92D5E6;
   --secondary: #18314F;
   --dark: #0D0630;
@@ -16,6 +17,14 @@
 
 .text-white {
   color: var(--white);
+}
+
+.bg-grey {
+  background-color: var(--grey);
+}
+
+.text-grey {
+  color: var(--grey);
 }
 
 .bg-light {
@@ -110,6 +119,34 @@ h5 {
   font-size: 1em;
 }
 
+a {
+  color: var(--light);
+  text-decoration: none;
+  position: relative;
+}
+
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #92D5E6;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.text-display > * {
+  font-weight: lighter;
+}
+
 .text-left {
   text-align: left;
 }
@@ -122,11 +159,88 @@ h5 {
   text-align: right;
 }
 
+hr {
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
 body {
   margin: 0;
 }
 
 .content {
+  margin: 2em;
+  padding: 2em;
+}
+
+.col-12 {
+  width: 99.96%;
+  margin: 2em;
+  padding: 2em;
+}
+
+.col-11 {
+  width: 91.63%;
+  margin: 2em;
+  padding: 2em;
+}
+
+.col-10 {
+  width: 83.33%;
+  margin: 2em;
+  padding: 2em;
+}
+
+.col-9 {
+  width: 74.97%;
+  margin: 2em;
+  padding: 2em;
+}
+
+.col-8 {
+  width: 66.64%;
+  margin: 2em;
+  padding: 2em;
+}
+
+.col-7 {
+  width: 58.31%;
+  margin: 2em;
+  padding: 2em;
+}
+
+.col-6 {
+  width: 49.98%;
+  margin: 2em;
+  padding: 2em;
+}
+
+.col-5 {
+  width: 41.65%;
+  margin: 2em;
+  padding: 2em;
+}
+
+.col-4 {
+  width: 33.32%;
+  margin: 2em;
+  padding: 2em;
+}
+
+.col-3 {
+  width: 24.99%;
+  margin: 2em;
+  padding: 2em;
+}
+
+.col-2 {
+  width: 16.66%;
+  margin: 2em;
+  padding: 2em;
+}
+
+.col-1 {
+  width: 8.33%;
   margin: 2em;
   padding: 2em;
 }
@@ -387,6 +501,26 @@ body {
   justify-content: space-evenly;
 }
 
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-flex-end {
+  align-items: flex-end;
+}
+
+.align-items-stretch {
+  align-items: stretch;
+}
+
+.align-items-inherit {
+  align-items: inherit;
+}
+
+.align-items-unset {
+  align-items: unset;
+}
+
 code {
   background-color: var(--secondary);
   display: block;
@@ -421,27 +555,10 @@ nav ul li {
   float: left;
   position: relative;
 }
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  padding: 0.5em;
+nav a {
+  color: var(--white);
+  margin-right: 1em;
   position: relative;
-}
-nav ul li a:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #92D5E6;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.3s ease-in-out 0s;
-}
-nav ul li a:hover:before {
-  visibility: visible;
-  transform: scaleX(1);
 }
 
 .switch {

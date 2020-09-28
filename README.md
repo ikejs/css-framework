@@ -27,8 +27,8 @@
   - [ ] Stretch: Add a sticky navbar style ([css position sticky](https://www.w3schools.com/howto/howto_js_sticky_header.asp))
   - [ ] Stretch: Footer styles
 - Card style
-  - [ ] Defined a card style'
-  - [ ] Stretch: Your card style inlcudes some extra features like image and footer, dark or light style.
+  - [x] Defined a card style'
+  - [ ] Stretch: Your card style include some extra features like image and footer, dark or light style.
 - Uses SASS
   - [ ] Stretch: use @import to bring all files together into a single css file. 
   - [ ] Stretch: Use @for to automate one or more processes

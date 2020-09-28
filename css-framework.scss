@@ -111,18 +111,19 @@ body { margin: 0; }
 
 .content { margin: 2em; padding: 2em; }
 
-.col-12 { width: 99.96%; margin: 2em; padding: 2em; }
-.col-11 { width: 91.63%; margin: 2em; padding: 2em; }
-.col-10 { width: 83.33%; margin: 2em; padding: 2em; }
-.col-9 { width: 74.97%; margin: 2em; padding: 2em; }
-.col-8 { width: 66.64%; margin: 2em; padding: 2em; }
-.col-7 { width: 58.31%; margin: 2em; padding: 2em; }
-.col-6 { width: 49.98%; margin: 2em; padding: 2em; }
-.col-5 { width: 41.65%; margin: 2em; padding: 2em; }
-.col-4 { width: 33.32%; margin: 2em; padding: 2em; }
-.col-3 { width: 24.99%; margin: 2em; padding: 2em; }
-.col-2 { width: 16.66%; margin: 2em; padding: 2em; }
-.col-1 { width: 8.33%; margin: 2em; padding: 2em; }
+.col-12 { width: 99.96%; }
+.col-11 { width: 91.63%; }
+.col-10 { width: 83.33%; }
+.col-9 { width: 74.97%; }
+.col-8 { width: 66.64%; }
+.col-7 { width: 58.31%; }
+.col-6 { width: 49.98%; }
+.col-5 { width: 41.65%; }
+.col-4 { width: 33.32%; }
+.col-3 { width: 24.99%; }
+.col-2 { width: 16.66%; }
+.col-1 { width: 8.33%; }
+
 
 .m-0 { margin: 0; }
 .m-1 { margin: 1em; }
@@ -177,12 +178,14 @@ body { margin: 0; }
 .pl-4 { padding-left: 4em; }
 
 .rounded { border-radius: 8px; }
+.rounded-top { border-top-left-radius: 8px; border-top-right-radius: 8px; }
+.rounded-bottom { border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; }
 .rounded-top-left { border-top-left-radius: 8px; }
 .rounded-top-right { border-top-right-radius: 8px; }
 .rounded-bottom-right { border-bottom-right-radius: 8px; }
 .rounded-bottom-left { border-bottom-left-radius: 8px; }
 
-.jumbotron { padding: 2em; }
+.card { padding: 2em; }
 
 .w-100 { width: 100%; }
 

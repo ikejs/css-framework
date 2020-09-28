@@ -110,8 +110,16 @@ h5 {
   font-size: 1em;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 body {
@@ -325,6 +333,22 @@ body {
 
 .rounded {
   border-radius: 8px;
+}
+
+.rounded-top-left {
+  border-top-left-radius: 8px;
+}
+
+.rounded-top-right {
+  border-top-right-radius: 8px;
+}
+
+.rounded-bottom-right {
+  border-bottom-right-radius: 8px;
+}
+
+.rounded-bottom-left {
+  border-bottom-left-radius: 8px;
 }
 
 .jumbotron {

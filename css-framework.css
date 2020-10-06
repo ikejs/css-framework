@@ -467,6 +467,10 @@ body {
   display: flex;
 }
 
+.flex-direction-column {
+  flex-direction: column;
+}
+
 .justify-content-start {
   justify-content: start;
 }
@@ -629,6 +633,31 @@ label {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
+}
+
+.btn {
+  padding: 1em;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 1em;
+  border-radius: 4px;
+  border: 2px solid white;
+}
+select .bg-success {
+  border: 2px solid var(--success);
 }
 
 /*# sourceMappingURL=css-framework.css.map */

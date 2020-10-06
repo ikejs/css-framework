@@ -192,6 +192,8 @@ body { margin: 0; }
 .d-block { display: block; }
 .d-flex { display: flex; }
 
+.flex-direction-column { flex-direction: column; }
+
 .justify-content-start { justify-content: start; }
 .justify-content-center { justify-content: center; }
 .justify-content-space-between { justify-content: space-between; }
@@ -303,11 +305,6 @@ label {
   }
 }
 
-// *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* //
-//                SLIDE SWITCH                 //
-// *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* //
-
-
 .switch {
   position: relative;
   display: inline-block;
@@ -353,5 +350,30 @@ label {
     -ms-transform: translateX(26px);
     transform: translateX(26px);
   }
+}
 
+.btn {
+  padding: 1em;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 1em;
+  border-radius: 4px;
+  border: 2px solid white;
+
+  .bg-success {
+    border: 2px solid var(--success);
+  }
 }

@@ -11,16 +11,16 @@
   - [ ] **Stretch:** add a style for text selection, [read this](https://www.w3schools.com/cssref/sel_selection.asp)
   - [x] **Stretch:** Add color classes. Follow the example set by [Bootstrap colors](https://getbootstrap.com/docs/4.5/utilities/colors/#color)
 - [Button styles](https://github.com/Make-School-Courses/FEW-2.2-Web-Design-and-Advanced-CSS/blob/master/lessons/lesson-05.md#design-a-button) for warning, info, action, etc.
-  - [ ] Basic button styles
-  - [ ] Alternate button styles: warning, secondary, success, Danger, info, light, and dark. 
-  - [ ] document your buttons
+  - [x] Basic button styles
+  - [x] Alternate button styles: warning, secondary, success, Danger, info, light, and dark. 
+  - [x] document your buttons
 - [Form Elements](https://github.com/Make-School-Courses/FEW-2.2-Web-Design-and-Advanced-CSS/blob/master/lessons/lesson-06.md#challenge) 
-  - [ ] Styled inputs and textarea
-  - [ ] Styled form element
-  - [ ] Documented forms and inputs
+  - [x] Styled inputs and textarea
+  - [x] Styled form element
+  - [x] Documented forms and inputs
 - Use [CSS Custom properties](https://github.com/Make-School-Courses/FEW-2.2-Web-Design-and-Advanced-CSS/blob/master/lessons/lesson-05.md#css-custom-properties) for colors and other repeated values 
-  - [ ] uses Custom properties
-  - [ ] Document your custom properties
+  - [x] uses Custom properties
+  - [x] Document your custom properties
 - [Navbar style](https://github.com/Make-School-Courses/FEW-2.2-Web-Design-and-Advanced-CSS/blob/master/lessons/lesson-07.md#nav-bars) 
   - [x] Defined navbar styles
   - [ ] Document your navbar

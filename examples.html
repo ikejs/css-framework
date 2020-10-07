@@ -2,6 +2,7 @@
   <head>
     <title>Ike's CSS Framework</title>
     <link rel="stylesheet" href="css-framework.css">
+    <script src="css-framework.js"></script>
   </head>
   <body style="background-color:#a9a9a9;">
     <nav class="bg-secondary">
@@ -215,15 +216,15 @@
           </div>
         </form>
       </div>
-      <div class="col-2">
-        <div class="input-group">
-          <label for="slide-switch">Off/On Switch</label>
+      <div class="col-2 mt-1">
+        <div class="input-group d-flex align-items-center">
           <div id="slide-switch">
             <label class="switch">
               <input type="checkbox">
               <span class="slider"></span>
             </label>
           </div>
+          <label class="ml-1" for="slide-switch">Off/On Switch</label>
         </div>
         <div class="input-group d-flex flex-direction-column justify-content-center">
           <label>
@@ -262,27 +263,119 @@
           </select>
         </div>
       </div>
-      <div class="col-4">
-        <div class="d-flex mt-1">
-          <button class="btn bg-white text-black mr-1">Button</button>
-          <button class="btn bg-grey text-white mr-1">Button</button>
-          <button class="btn bg-light mr-1">Button</button>
-          <button class="btn bg-success mr-1">Button</button>
-        </div>
-        <div class="d-flex mt-1 mb-3">
-          <button class="btn bg-info text-white mr-1">Button</button>
-          <button class="btn bg-secondary text-white mr-1">Button</button>
-          <button class="btn bg-dark text-white mr-1">Button</button>
-          <button class="btn bg-black text-white mr-1">Button</button>
+      <div class="col-4 d-flex align-items-center">
+        <div class="ml-2">
+          <div class="d-flex mt-1">
+            <button class="btn bg-white text-black mr-1">Button</button>
+            <button class="btn bg-grey text-white mr-1">Button</button>
+            <button class="btn bg-light mr-1">Button</button>
+            <button class="btn bg-success mr-1">Button</button>
+          </div>
+          <div class="d-flex mt-1 mb-3">
+            <button class="btn bg-info text-white mr-1">Button</button>
+            <button class="btn bg-secondary text-white mr-1">Button</button>
+            <button class="btn bg-dark text-white mr-1">Button</button>
+            <button class="btn bg-black text-white mr-1">Button</button>
+          </div>
         </div>
       </div>
     </div>
   </div>
   <code class="card bg-secondary text-white">
 <pre>
+&lt;form&gt;
+  &lt;div class="input-group"&gt;
+    &lt;label for="name"&gt;Name: &lt;/label&gt;
+    &lt;input id="name" type="text" /&gt;
+  &lt;/div&gt;
+  &lt;div class="input-group"&gt;
+    &lt;label for="email"&gt;Email: &lt;/label&gt;
+    &lt;input id="email" type="email" /&gt;
+  &lt;/div&gt;
+  &lt;div class="input-group"&gt;
+    &lt;label for="bio"&gt;Bio: &lt;/label&gt;
+    &lt;textarea id="bio"&gt;&lt;/textarea&gt;
+  &lt;/div&gt;
+  &lt;div class="input-group"&gt;
+    &lt;button class="btn bg-info text-white btn-block"&gt;Submit&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/form&gt;
+
+
+&lt;div class="input-group"&gt;
+  &lt;div id="slide-switch"&gt;
+    &lt;label class="switch"&gt;
+      &lt;input type="checkbox"&gt;
+      &lt;span class="slider"&gt;&lt;/span&gt;
+    &lt;/label&gt;
+  &lt;/div&gt;
+  &lt;label class="ml-1" for="slide-switch"&gt;Off/On Switch&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div class="input-group d-flex flex-direction-column justify-content-center"&gt;
+  &lt;label&gt;
+    &lt;input type="radio" name="myRadio" value="1" /&gt;
+    Radio choice 1
+  &lt;/label&gt;
+  &lt;label&gt;
+    &lt;input type="radio" name="myRadio" value="2" /&gt;
+    Radio choice 2
+  &lt;/label&gt;
+  &lt;label&gt;
+    &lt;input type="radio" name="myRadio" value="3" /&gt;
+    Radio choice 3
+  &lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div class="input-group"&gt;
+  &lt;label&gt;
+    &lt;input type="checkbox" /&gt;
+    Checkbox 1
+  &lt;/label&gt;
+  &lt;label&gt;
+    &lt;input type="checkbox" /&gt;
+    Checkbox 2
+  &lt;/label&gt;
+  &lt;label&gt;
+    &lt;input type="checkbox" /&gt;
+    Checkbox 3
+  &lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div class="input-group"&gt;
+  &lt;select class="bg-success"&gt;
+    &lt;option selected&gt;Select&lt;/option&gt;
+    &lt;option&gt;Option 2&lt;/option&gt;
+    &lt;option&gt;Option 3&lt;/option&gt;
+    &lt;option&gt;Option 4&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/div&gt;
+
+&lt;div class="col-4 d-flex align-items-center"&gt;
+  &lt;div class="d-flex"&gt;
+    &lt;button class="btn bg-white text-black mr-1"&gt;Button&lt;/button&gt;
+    &lt;button class="btn bg-grey text-white mr-1"&gt;Button&lt;/button&gt;
+    &lt;button class="btn bg-light mr-1"&gt;Button&lt;/button&gt;
+    &lt;button class="btn bg-success mr-1"&gt;Button&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class="d-flex"&gt;
+    &lt;button class="btn bg-info text-white mr-1"&gt;Button&lt;/button&gt;
+    &lt;button class="btn bg-secondary text-white mr-1"&gt;Button&lt;/button&gt;
+    &lt;button class="btn bg-dark text-white mr-1"&gt;Button&lt;/button&gt;
+    &lt;button class="btn bg-black text-white mr-1"&gt;Button&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 </pre>
 </code>
+
+<a href="#web-components"><h1 id="forms" class="text-secondary">Web Components</h1></a>
+<div class="card bg-grey rounded">
+  <ticker-tape>This text is rotating in a ticker-tape element.</ticker-tape>
 </div>
+
+
+</div>
+
 
 
   </body>

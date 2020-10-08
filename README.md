@@ -34,6 +34,6 @@
   - [ ] Stretch: Use @for to automate one or more processes
   - [x] Stretch: use mixins to reduce code duplication
 - Web components 
-  - [ ] You have at least one web component
-  - [ ] Document your web component
-  - [ ] Stretch: You have a second web component
+  - [x] You have at least one web component
+  - [x] Document your web component
+  - [x] Stretch: You have a second web component
